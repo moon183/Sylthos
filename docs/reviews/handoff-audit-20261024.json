@@ -1,0 +1,124 @@
+{
+  "d_head": "c5978eb6760df4de7d2f5d286491fd31eab1de95",
+  "c_head": "d5151b751a0d1bed29236bc6cac9c25d67174ff4",
+  "missing_tracked_d": [],
+  "runtime_mismatch": [],
+  "untracked_c": [],
+  "data_comparison": {
+    "models": {
+      "c_files": 2,
+      "d_files": 10,
+      "c_missing_from_d": [],
+      "common_mismatch": []
+    },
+    "custom_gestures": {
+      "c_files": 0,
+      "d_files": 0,
+      "c_missing_from_d": [],
+      "common_mismatch": []
+    },
+    "evaluations": {
+      "c_files": 0,
+      "d_files": 0,
+      "c_missing_from_d": [],
+      "common_mismatch": []
+    },
+    "recordings": {
+      "c_files": 9,
+      "d_files": 9,
+      "c_missing_from_d": [],
+      "common_mismatch": []
+    },
+    "screenshots": {
+      "c_files": 0,
+      "d_files": 0,
+      "c_missing_from_d": [],
+      "common_mismatch": []
+    },
+    "logs/rehearsals": {
+      "c_files": 0,
+      "d_files": 0,
+      "c_missing_from_d": [],
+      "common_mismatch": []
+    }
+  },
+  "protected_original_files": {
+    "checked": 1640,
+    "missing": [],
+    "changed": [
+      ".idea/workspace.xml",
+      "config.json"
+    ]
+  },
+  "requirements": [
+    {
+      "name": "mediapipe",
+      "installed": "0.10.18",
+      "satisfies": true
+    },
+    {
+      "name": "opencv-python",
+      "installed": "4.10.0.84",
+      "satisfies": true
+    },
+    {
+      "name": "numpy",
+      "installed": "1.26.4",
+      "satisfies": true
+    },
+    {
+      "name": "PySide6",
+      "installed": "6.11.2",
+      "satisfies": true
+    },
+    {
+      "name": "pywin32",
+      "installed": "312",
+      "satisfies": true
+    },
+    {
+      "name": "pyautogui",
+      "installed": "0.9.54",
+      "satisfies": true
+    },
+    {
+      "name": "pytest",
+      "installed": "9.1.1",
+      "satisfies": true
+    },
+    {
+      "name": "pyinstaller",
+      "installed": "6.22.2",
+      "satisfies": true
+    },
+    {
+      "name": "sherpa-onnx",
+      "installed": "1.13.8",
+      "satisfies": true
+    },
+    {
+      "name": "sounddevice",
+      "installed": "0.5.6",
+      "satisfies": true
+    },
+    {
+      "name": "cv2-enumerate-cameras",
+      "installed": "1.4.0",
+      "satisfies": true
+    },
+    {
+      "name": "PySide6-Fluent-Widgets",
+      "installed": "1.11.3",
+      "satisfies": true
+    }
+  ],
+  "qframelesswindow_provider": [
+    "PySideSix-Frameless-Window >=0.8.0"
+  ],
+  "configured_resources": {
+    "demo_exists": true,
+    "offline_ready_files": true,
+    "stream_ready_files": true
+  },
+  "config_sha256": "7537c8212adaed3340d68573dceec87995cdac422e7550a1919711eaf343c78c"
+}

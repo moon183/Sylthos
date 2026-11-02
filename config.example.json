@@ -1,0 +1,219 @@
+{
+  "camera": {
+    "index": 0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "fourcc": "MJPG",
+    "backend": "MSMF"
+  },
+  "tracking": {
+    "max_num_hands": 1,
+    "model_complexity": 0,
+    "min_detection_confidence": 0.7,
+    "min_tracking_confidence": 0.5,
+    "bpf": true,
+    "bpf_trigger_misses": 5,
+    "bpf_visibility": 0.5,
+    "bpf_track_misses": 10,
+    "bpf_acquire_every": 4,
+    "bpf_acquire_backoff_after": 40,
+    "bpf_acquire_max_every": 16,
+    "bpf_track_crop_factor": 3.5,
+    "bpf_pose_width": 256,
+    "detect_width": 960
+  },
+  "activation": {
+    "hold_ms": 700,
+    "max_drift_hs": 0.08,
+    "command_quota": 1
+  },
+  "swipe": {
+    "window_ms": 260,
+    "min_velocity_hs_per_s": 2.5,
+    "min_displacement_hs": 1.3,
+    "gap_bridge_ms": 160,
+    "teleport_hs": 1.6,
+    "cooldown_ms": 650,
+    "reverse_cooldown_ms": 1300,
+    "rearm_velocity_hs_per_s": 1.8,
+    "onset_velocity_hs_per_s": 2.5,
+    "max_motion_ms": 800,
+    "rearm_slow_ms": 250,
+    "home_half_width": 0.2,
+    "dir_epsilon_hs": 0.3,
+    "straightness_min": 0.8,
+    "monotonic_min": 0.9,
+    "direction_invert": true,
+    "pose_grace_ms": 600
+  },
+  "feedback": {
+    "sound": false
+  },
+  "static_pose": {
+    "finger_extended_cos": 0.95,
+    "finger_bent_ratio": 1.2,
+    "confirm_frames": 4
+  },
+  "features": {
+    "flip": true,
+    "zoom": true,
+    "laser": true,
+    "tap": true,
+    "blackout": true,
+    "nav": true,
+    "spotlight": true,
+    "custom": true
+  },
+  "blackout": {
+    "cover_scale": 0.45,
+    "hold_ms": 400,
+    "dark_threshold": 15,
+    "dark_ratio": 0.4,
+    "dark_frames": 5
+  },
+  "ok_exit": {
+    "hold_ms": 400
+  },
+  "pinch": {
+    "pinch_hs": 0.25,
+    "confirm_frames": 6
+  },
+  "nav": {
+    "hold_ms": 1500
+  },
+  "spotlight": {
+    "hold_ms": 1000,
+    "radius": 150
+  },
+  "twohand": {
+    "enabled": false,
+    "delta_hs": 0.6,
+    "cooldown_ms": 800
+  },
+  "laser": {
+    "backend": "native",
+    "hold_ms": 1500,
+    "region_x_min": 0.15,
+    "region_x_max": 0.85,
+    "region_y_min": 0.15,
+    "region_y_max": 0.85,
+    "one_euro_min_cutoff": 1.0,
+    "one_euro_beta": 0.5,
+    "track_loss_grace_ms": 280,
+    "dot_radius": 8,
+    "trail_ms": 1000,
+    "auto_center": true,
+    "auto_center_max_shift": 0.15,
+    "knuckle_min_cutoff": 1.2,
+    "knuckle_beta": 0.8
+  },
+  "cursor": {
+    "enabled": true,
+    "stream_hz": 120,
+    "tau_ms": 40,
+    "ink_hz": 60,
+    "ink_min_step_px": 1.0,
+    "ink_tau_ms": 30
+  },
+  "zoom": {
+    "backend": "native",
+    "step_scroll_units": 20,
+    "hysteresis_low": 0.7,
+    "hysteresis_high": 1.4,
+    "slide_speed_hs_per_s": 2.0,
+    "pan_speed": 0.5,
+    "pan_deadzone_px": 1.5
+  },
+  "magnifier": {
+    "window_size": 480,
+    "factor": 2.0,
+    "refresh_ms": 32,
+    "idle_ms": 1000
+  },
+  "tap": {
+    "max_duration_ms": 500,
+    "min_dip_hs": 0.22,
+    "max_lateral_hs": 0.15,
+    "freeze_dip_ratio": 0.3,
+    "freeze_velocity_hs_per_s": 2.0
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/app.log"
+  },
+  "custom_gestures": {
+    "enabled": true,
+    "min_points": 12,
+    "min_path_hs": 1.2,
+    "stroke_end_frames": 5,
+    "end_still_ms": 400,
+    "lost_end_ms": 450,
+    "end_velocity_hs_per_s": 0.5,
+    "prob_threshold": 0.55,
+    "dollar_threshold": 0.75,
+    "dollar_margin": 0.03,
+    "mapping": {}
+  },
+  "screenshot": {
+    "dir": "screenshots"
+  },
+  "countdown": {
+    "minutes": 10
+  },
+  "pointer_ring": {
+    "radius": 60
+  },
+  "show_gate": {
+    "enabled": true
+  },
+  "demo": {
+    "ppt_path": "demo.pptx"
+  },
+  "asr": {
+    "enabled": false,
+    "mode": "offline",
+    "energy_threshold": 0.01,
+    "silence_ms": 500,
+    "offline": {
+      "model_type": "sensevoice",
+      "model_dir": "models/sensevoice"
+    },
+    "stream": {
+      "model_dir": "models/zipformer_ctc",
+      "endpoint_silence_s": 1.2
+    },
+    "online": {
+      "base_url": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+      "api_key": "",
+      "model": "qwen-audio-turbo",
+      "prompt": "请将这段语音完整转写为中文文字，只输出转写结果本身，不要添加任何解释、标点以外的内容。",
+      "segment_s": 25.0,
+      "timeout_s": 30
+    },
+    "subtitle": {
+      "font_size": 24,
+      "max_chars": 60
+    },
+    "hotwords": [],
+    "max_segment_s": 12.0,
+    "noise_adaptive": true,
+    "noise_margin": 3.0,
+    "translate": true
+  },
+  "face_gate": {
+    "enabled": true,
+    "check_every": 6,
+    "absent_disarm_s": 9.0
+  },
+  "calibration": {
+    "done": false,
+    "ts": ""
+  },
+  "theme": {
+    "mode": "auto",
+    "color": "#009faa",
+    "custom_colors": [],
+    "pure_black": false
+  }
+}

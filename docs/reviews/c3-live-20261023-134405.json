@@ -1,0 +1,944 @@
+{
+  "note": "事件循环间隔不是屏幕帧率；输入后的排队延迟不是完整视觉反馈延迟；speech_running包括模型加载阶段。",
+  "elapsed_seconds": 174.13,
+  "event_loop": {
+    "camera=off;speech_running=False;page=preview": {
+      "samples": 1362,
+      "median_ms": 15.983,
+      "p95_ms": 18.943,
+      "max_ms": 52.193,
+      "over_50ms": 1,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=practice": {
+      "samples": 227,
+      "median_ms": 16.032,
+      "p95_ms": 17.962,
+      "max_ms": 32.328,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=custom_gesture": {
+      "samples": 127,
+      "median_ms": 15.99,
+      "p95_ms": 18.895,
+      "max_ms": 23.047,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=asr": {
+      "samples": 162,
+      "median_ms": 15.921,
+      "p95_ms": 18.799,
+      "max_ms": 26.906,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=rehearsal": {
+      "samples": 156,
+      "median_ms": 15.968,
+      "p95_ms": 19.586,
+      "max_ms": 27.831,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=settings": {
+      "samples": 357,
+      "median_ms": 15.986,
+      "p95_ms": 20.951,
+      "max_ms": 43.107,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=theme": {
+      "samples": 203,
+      "median_ms": 15.999,
+      "p95_ms": 18.578,
+      "max_ms": 27.184,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=help": {
+      "samples": 238,
+      "median_ms": 15.974,
+      "p95_ms": 18.594,
+      "max_ms": 33.959,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=logs": {
+      "samples": 217,
+      "median_ms": 16.027,
+      "p95_ms": 18.377,
+      "max_ms": 31.195,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=preview": {
+      "samples": 229,
+      "median_ms": 15.987,
+      "p95_ms": 17.073,
+      "max_ms": 30.81,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=preview": {
+      "samples": 1005,
+      "median_ms": 16.021,
+      "p95_ms": 17.923,
+      "max_ms": 1381.093,
+      "over_50ms": 1,
+      "over_100ms": 1
+    },
+    "camera=ready;speech_running=False;page=practice": {
+      "samples": 177,
+      "median_ms": 16.076,
+      "p95_ms": 18.548,
+      "max_ms": 20.934,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=custom_gesture": {
+      "samples": 200,
+      "median_ms": 15.96,
+      "p95_ms": 17.279,
+      "max_ms": 22.786,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=asr": {
+      "samples": 2443,
+      "median_ms": 16.008,
+      "p95_ms": 17.192,
+      "max_ms": 121.807,
+      "over_50ms": 1,
+      "over_100ms": 1
+    },
+    "camera=ready;speech_running=False;page=rehearsal": {
+      "samples": 50,
+      "median_ms": 16.022,
+      "p95_ms": 17.046,
+      "max_ms": 27.581,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=settings": {
+      "samples": 107,
+      "median_ms": 15.863,
+      "p95_ms": 21.455,
+      "max_ms": 23.189,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=theme": {
+      "samples": 135,
+      "median_ms": 16.015,
+      "p95_ms": 18.75,
+      "max_ms": 20.971,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=help": {
+      "samples": 171,
+      "median_ms": 15.988,
+      "p95_ms": 19.084,
+      "max_ms": 23.788,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=logs": {
+      "samples": 142,
+      "median_ms": 15.922,
+      "p95_ms": 17.755,
+      "max_ms": 22.717,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=asr": {
+      "samples": 1994,
+      "median_ms": 16.015,
+      "p95_ms": 17.085,
+      "max_ms": 40.266,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=preview": {
+      "samples": 446,
+      "median_ms": 16.01,
+      "p95_ms": 17.069,
+      "max_ms": 22.728,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=practice": {
+      "samples": 118,
+      "median_ms": 16.04,
+      "p95_ms": 17.453,
+      "max_ms": 23.288,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=custom_gesture": {
+      "samples": 97,
+      "median_ms": 16.022,
+      "p95_ms": 17.129,
+      "max_ms": 19.12,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=rehearsal": {
+      "samples": 106,
+      "median_ms": 16.008,
+      "p95_ms": 18.033,
+      "max_ms": 19.812,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=settings": {
+      "samples": 119,
+      "median_ms": 16.007,
+      "p95_ms": 17.999,
+      "max_ms": 25.085,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=theme": {
+      "samples": 40,
+      "median_ms": 15.884,
+      "p95_ms": 17.021,
+      "max_ms": 18.385,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=help": {
+      "samples": 79,
+      "median_ms": 15.93,
+      "p95_ms": 17.89,
+      "max_ms": 25.601,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=logs": {
+      "samples": 71,
+      "median_ms": 15.922,
+      "p95_ms": 18.212,
+      "max_ms": 19.558,
+      "over_50ms": 0,
+      "over_100ms": 0
+    }
+  },
+  "input_queued_callback": {
+    "camera=off;speech_running=False;page=preview": {
+      "samples": 77,
+      "median_ms": 0.863,
+      "p95_ms": 7.65,
+      "max_ms": 37.707,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=practice": {
+      "samples": 9,
+      "median_ms": 2.215,
+      "p95_ms": 2.973,
+      "max_ms": 3.119,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=custom_gesture": {
+      "samples": 9,
+      "median_ms": 3.328,
+      "p95_ms": 6.324,
+      "max_ms": 6.373,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=asr": {
+      "samples": 10,
+      "median_ms": 1.725,
+      "p95_ms": 3.406,
+      "max_ms": 3.46,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=rehearsal": {
+      "samples": 9,
+      "median_ms": 7.326,
+      "p95_ms": 15.055,
+      "max_ms": 15.355,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=settings": {
+      "samples": 12,
+      "median_ms": 3.626,
+      "p95_ms": 6.189,
+      "max_ms": 6.202,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=theme": {
+      "samples": 9,
+      "median_ms": 6.701,
+      "p95_ms": 9.304,
+      "max_ms": 9.449,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=help": {
+      "samples": 9,
+      "median_ms": 3.585,
+      "p95_ms": 7.998,
+      "max_ms": 8.376,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=off;speech_running=False;page=logs": {
+      "samples": 10,
+      "median_ms": 0.922,
+      "p95_ms": 2.321,
+      "max_ms": 2.46,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=preview": {
+      "samples": 4,
+      "median_ms": 0.365,
+      "p95_ms": 0.372,
+      "max_ms": 0.433,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=preview": {
+      "samples": 58,
+      "median_ms": 0.613,
+      "p95_ms": 3.012,
+      "max_ms": 1370.838,
+      "over_50ms": 2,
+      "over_100ms": 2
+    },
+    "camera=ready;speech_running=False;page=practice": {
+      "samples": 9,
+      "median_ms": 1.653,
+      "p95_ms": 3.02,
+      "max_ms": 3.059,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=custom_gesture": {
+      "samples": 9,
+      "median_ms": 1.851,
+      "p95_ms": 3.101,
+      "max_ms": 3.153,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=asr": {
+      "samples": 37,
+      "median_ms": 4.024,
+      "p95_ms": 29.656,
+      "max_ms": 118.421,
+      "over_50ms": 2,
+      "over_100ms": 2
+    },
+    "camera=ready;speech_running=False;page=rehearsal": {
+      "samples": 3,
+      "median_ms": 4.282,
+      "p95_ms": 4.282,
+      "max_ms": 4.296,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=settings": {
+      "samples": 6,
+      "median_ms": 2.255,
+      "p95_ms": 2.298,
+      "max_ms": 4.077,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=theme": {
+      "samples": 9,
+      "median_ms": 3.7,
+      "p95_ms": 5.671,
+      "max_ms": 5.681,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=help": {
+      "samples": 6,
+      "median_ms": 1.841,
+      "p95_ms": 4.437,
+      "max_ms": 4.464,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=logs": {
+      "samples": 6,
+      "median_ms": 1.323,
+      "p95_ms": 2.497,
+      "max_ms": 2.522,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=asr": {
+      "samples": 11,
+      "median_ms": 2.432,
+      "p95_ms": 33.98,
+      "max_ms": 34.013,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=preview": {
+      "samples": 9,
+      "median_ms": 1.885,
+      "p95_ms": 3.695,
+      "max_ms": 3.707,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=practice": {
+      "samples": 6,
+      "median_ms": 2.076,
+      "p95_ms": 2.263,
+      "max_ms": 3.433,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=custom_gesture": {
+      "samples": 6,
+      "median_ms": 1.952,
+      "p95_ms": 2.278,
+      "max_ms": 2.298,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=rehearsal": {
+      "samples": 13,
+      "median_ms": 0.26,
+      "p95_ms": 5.024,
+      "max_ms": 5.046,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=settings": {
+      "samples": 6,
+      "median_ms": 1.969,
+      "p95_ms": 2.021,
+      "max_ms": 2.041,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=theme": {
+      "samples": 3,
+      "median_ms": 1.498,
+      "p95_ms": 1.498,
+      "max_ms": 1.522,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=help": {
+      "samples": 3,
+      "median_ms": 4.025,
+      "p95_ms": 4.025,
+      "max_ms": 4.043,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=True;page=logs": {
+      "samples": 3,
+      "median_ms": 4.369,
+      "p95_ms": 4.369,
+      "max_ms": 4.399,
+      "over_50ms": 0,
+      "over_100ms": 0
+    }
+  },
+  "recognition_fps": [
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 0.31
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 25.9
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 31.39
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.26
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.44
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.15
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=practice",
+      "fps": 29.3
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 30.26
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.42
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=rehearsal",
+      "fps": 29.21
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=settings",
+      "fps": 30.11
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=theme",
+      "fps": 31.6
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=theme",
+      "fps": 29.43
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=help",
+      "fps": 29.55
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=logs",
+      "fps": 29.88
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=logs",
+      "fps": 28.61
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.34
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.11
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.15
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.46
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.32
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.07
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 28.88
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 31.7
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.64
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 28.4
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.13
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.42
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.19
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.79
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.52
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 28.86
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.2
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.2
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.75
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.62
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.21
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.77
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.6
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.47
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 28.75
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.78
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.25
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.43
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.4
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.97
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.82
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 28.63
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.99
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.85
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.59
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 28.55
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.84
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.76
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.45
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.99
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 28.68
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.84
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.34
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.49
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.15
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.88
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.7
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.64
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.45
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.32
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.21
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.04
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.49
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.27
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.43
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.12
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.21
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.91
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 28.98
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 31.71
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 28.94
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.43
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.88
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.19
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.67
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.17
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.33
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=practice",
+      "fps": 30.19
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.34
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=theme",
+      "fps": 29.17
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=preview",
+      "fps": 30.44
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=help",
+      "fps": 30.22
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=logs",
+      "fps": 30.81
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=settings",
+      "fps": 28.82
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=settings",
+      "fps": 30.51
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=rehearsal",
+      "fps": 30.98
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.65
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=custom_gesture",
+      "fps": 29.25
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=practice",
+      "fps": 30.14
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=practice",
+      "fps": 30.57
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=preview",
+      "fps": 29.21
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=preview",
+      "fps": 30.34
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=preview",
+      "fps": 29.28
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=preview",
+      "fps": 30.2
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=preview",
+      "fps": 30.4
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.18
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 29.39
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.63
+    },
+    {
+      "phase": "camera=ready;speech_running=True;page=asr",
+      "fps": 30.32
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 28.97
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.23
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.54
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.39
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 30.19
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 30.11
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=practice",
+      "fps": 29.26
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=theme",
+      "fps": 30.34
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=help",
+      "fps": 29.97
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=theme",
+      "fps": 29.93
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 29.81
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.79
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.49
+    }
+  ],
+  "stop_calls": [
+    {
+      "kind": "speech",
+      "ms": 33.04
+    },
+    {
+      "kind": "monitor",
+      "ms": 1349.42
+    },
+    {
+      "kind": "speech",
+      "ms": 0.728
+    }
+  ]
+}

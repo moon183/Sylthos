@@ -1,0 +1,10 @@
+{
+  "enabled": false,
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "api_key": "",
+  "timeout_s": 120,
+  "max_tokens": null,
+  "json_mode": true,
+  "thinking": false
+}

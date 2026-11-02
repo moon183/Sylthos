@@ -1,0 +1,18 @@
+{
+  "prepared_date": "2026-11-02",
+  "source_original_commit": "4cea32536214e666229b961b9247eb04cd2e8491",
+  "runtime_original_commit": "f741b7c4443e50b591addcc160a4385c6fa4dc1a",
+  "runtime_build_date": "2026-10-27",
+  "runtime_code_matches_source": true,
+  "source_history_included": false,
+  "personal_data_included": false,
+  "config_changes": [
+    "credentials blank",
+    "relative paths",
+    "ASR disabled",
+    "calibration reset",
+    "custom mapping reset",
+    "hotwords cleared"
+  ],
+  "clean_pc_verified": false
+}

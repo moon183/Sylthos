@@ -1,0 +1,17 @@
+{
+  "unknown_10_seconds": {
+    "points_retained": 12,
+    "in_progress": true,
+    "points_after_resume": 13,
+    "bridged_step": 0.48000000000000004
+  },
+  "end_pose_duration_by_fps": {
+    "15": 333.3,
+    "30": 166.7,
+    "60": 83.3
+  },
+  "same_frame_offered_to_engine": [
+    "FIST_OPEN",
+    "CUSTOM_GESTURE"
+  ]
+}

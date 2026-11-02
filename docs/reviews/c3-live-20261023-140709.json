@@ -1,0 +1,444 @@
+{
+  "note": "事件循环间隔不是屏幕帧率；输入后的排队延迟不是完整视觉反馈延迟；speech_running包括模型加载阶段。",
+  "elapsed_seconds": 59.35,
+  "event_loop": {
+    "camera=off;speech_running=False;page=preview": {
+      "samples": 745,
+      "median_ms": 15.997,
+      "p95_ms": 16.995,
+      "max_ms": 39.724,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=preview": {
+      "samples": 198,
+      "median_ms": 16.013,
+      "p95_ms": 16.778,
+      "max_ms": 22.368,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=practice": {
+      "samples": 98,
+      "median_ms": 15.99,
+      "p95_ms": 17.162,
+      "max_ms": 19.978,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=custom_gesture": {
+      "samples": 83,
+      "median_ms": 15.981,
+      "p95_ms": 16.689,
+      "max_ms": 20.062,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=custom_gesture": {
+      "samples": 478,
+      "median_ms": 15.987,
+      "p95_ms": 17.609,
+      "max_ms": 28.053,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=asr": {
+      "samples": 112,
+      "median_ms": 16.02,
+      "p95_ms": 18.902,
+      "max_ms": 21.571,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=rehearsal": {
+      "samples": 67,
+      "median_ms": 16.149,
+      "p95_ms": 17.649,
+      "max_ms": 19.407,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=settings": {
+      "samples": 44,
+      "median_ms": 16.201,
+      "p95_ms": 18.778,
+      "max_ms": 24.35,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=theme": {
+      "samples": 19,
+      "median_ms": 16.407,
+      "p95_ms": 19.311,
+      "max_ms": 19.939,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=preview": {
+      "samples": 1510,
+      "median_ms": 15.989,
+      "p95_ms": 17.231,
+      "max_ms": 27.436,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=practice": {
+      "samples": 223,
+      "median_ms": 15.992,
+      "p95_ms": 18.865,
+      "max_ms": 26.953,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=asr": {
+      "samples": 64,
+      "median_ms": 16.105,
+      "p95_ms": 19.451,
+      "max_ms": 36.572,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=settings": {
+      "samples": 21,
+      "median_ms": 15.949,
+      "p95_ms": 16.949,
+      "max_ms": 21.351,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=theme": {
+      "samples": 24,
+      "median_ms": 15.977,
+      "p95_ms": 16.39,
+      "max_ms": 18.701,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=rehearsal": {
+      "samples": 20,
+      "median_ms": 16.062,
+      "p95_ms": 17.142,
+      "max_ms": 17.484,
+      "over_50ms": 0,
+      "over_100ms": 0
+    }
+  },
+  "input_queued_callback": {
+    "camera=off;speech_running=False;page=preview": {
+      "samples": 8,
+      "median_ms": 13.342,
+      "p95_ms": 29.769,
+      "max_ms": 29.844,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=preview": {
+      "samples": 6,
+      "median_ms": 2.339,
+      "p95_ms": 5.85,
+      "max_ms": 5.87,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=practice": {
+      "samples": 10,
+      "median_ms": 1.645,
+      "p95_ms": 2.902,
+      "max_ms": 2.93,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=custom_gesture": {
+      "samples": 7,
+      "median_ms": 1.758,
+      "p95_ms": 1.848,
+      "max_ms": 1.875,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=custom_gesture": {
+      "samples": 22,
+      "median_ms": 0.628,
+      "p95_ms": 4.159,
+      "max_ms": 4.377,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=asr": {
+      "samples": 14,
+      "median_ms": 2.009,
+      "p95_ms": 2.686,
+      "max_ms": 2.748,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=rehearsal": {
+      "samples": 6,
+      "median_ms": 1.301,
+      "p95_ms": 6.356,
+      "max_ms": 6.404,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=settings": {
+      "samples": 6,
+      "median_ms": 2.406,
+      "p95_ms": 2.722,
+      "max_ms": 2.743,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=theme": {
+      "samples": 3,
+      "median_ms": 4.145,
+      "p95_ms": 4.145,
+      "max_ms": 4.166,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=preview": {
+      "samples": 24,
+      "median_ms": 1.947,
+      "p95_ms": 3.074,
+      "max_ms": 3.462,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=ready;speech_running=False;page=practice": {
+      "samples": 18,
+      "median_ms": 1.662,
+      "p95_ms": 2.814,
+      "max_ms": 2.823,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=asr": {
+      "samples": 8,
+      "median_ms": 0.424,
+      "p95_ms": 5.052,
+      "max_ms": 5.086,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=settings": {
+      "samples": 3,
+      "median_ms": 2.411,
+      "p95_ms": 2.411,
+      "max_ms": 2.436,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=theme": {
+      "samples": 3,
+      "median_ms": 1.485,
+      "p95_ms": 1.485,
+      "max_ms": 1.552,
+      "over_50ms": 0,
+      "over_100ms": 0
+    },
+    "camera=starting;speech_running=False;page=rehearsal": {
+      "samples": 3,
+      "median_ms": 3.227,
+      "p95_ms": 3.227,
+      "max_ms": 3.254,
+      "over_50ms": 0,
+      "over_100ms": 0
+    }
+  },
+  "recognition_fps": [
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 0.36
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=rehearsal",
+      "fps": 28.47
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=theme",
+      "fps": 29.61
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 29.22
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 31.86
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 29.53
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 28.8
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 30.55
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 30.39
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=custom_gesture",
+      "fps": 30.24
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.41
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.94
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=practice",
+      "fps": 29.35
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.48
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 30.42
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.23
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=asr",
+      "fps": 0.39
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=practice",
+      "fps": 28.7
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=rehearsal",
+      "fps": 29.18
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=practice",
+      "fps": 29.79
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=practice",
+      "fps": 30.78
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.28
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=practice",
+      "fps": 0.39
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 26.67
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.43
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.31
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 28.81
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.04
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.27
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.44
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.44
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.56
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.72
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.53
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 28.84
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.7
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.07
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.38
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 30.78
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.88
+    },
+    {
+      "phase": "camera=ready;speech_running=False;page=preview",
+      "fps": 29.92
+    }
+  ],
+  "stop_calls": [
+    {
+      "kind": "monitor_stop_request",
+      "ms": 0.025
+    },
+    {
+      "kind": "monitor_cleanup_elapsed",
+      "ms": 1320.227
+    },
+    {
+      "kind": "monitor_stop_request",
+      "ms": 0.025
+    },
+    {
+      "kind": "monitor_cleanup_elapsed",
+      "ms": 1340.611
+    },
+    {
+      "kind": "monitor_stop_request",
+      "ms": 0.044
+    },
+    {
+      "kind": "monitor_cleanup_elapsed",
+      "ms": 372.694
+    },
+    {
+      "kind": "speech",
+      "ms": 0.46
+    }
+  ]
+}

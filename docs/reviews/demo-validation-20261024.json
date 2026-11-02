@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-24",
+  "file": "demo.pptx",
+  "sha256": "f9e416a69619c18dd1ff9334f9d8ef4d54dfd38b21320ba31065a59fca5b94ae",
+  "slides": 9,
+  "package_integrity": "pass",
+  "layout_geometry": "pass",
+  "artifact_tool_reimport": "pass",
+  "visual_review": "9 slides reviewed before and after; original basic layout retained",
+  "native_powerpoint_control_test": false,
+  "content_source": "tools/demo_slides.json",
+  "notes": "Package/render checks do not verify live gesture operation or native PowerPoint behavior."
+}
