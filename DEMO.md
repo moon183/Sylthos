@@ -2,12 +2,7 @@
 
 更新：2026-10-24。可使用当前源码与根目录demo.pptx，或新版dist/GesturePPT/GesturePPT.exe及同级demo.pptx；新包本机启动通过，完整硬件彩排待人工验收。本文是可执行的彩排脚本，不是已经取得的准确率报告。
 
-## 演示前准备
 
-```powershell
-cd D:\Kimicode\Gesturerecognition
-D:\Anaconda\envs\gesture\python.exe -X utf8 -m src.main
-```
 
 选好摄像头并确认画面，查看设置里的演示文件路径是否指向本次demo.pptx。换电脑需检查绝对路径。提前准备PowerPoint桌面版与模型，确认麦克风、电平、手部照明和能活动的空间。不要临场下载大模型。
 
